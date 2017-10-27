@@ -1,0 +1,56 @@
+file /home/aw325/Downloads/rat-pac/config/RAT.scons,line 106:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for curl-config... 
+scons: Configure: ".sconf_temp/conftest_0" is up to date.
+scons: Configure: The original builder output was:
+  |curl-config --version
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library bz2... 
+scons: Configure: ".sconf_temp/conftest_1.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_1.c <-
+  |  |
+  |  |
+  |  |#include "bzlib.h"
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: Building ".sconf_temp/conftest_1.o" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_1.o -c -m64 -pthread -rdynamic -Wno-long-long -W -Wall -pedantic -Wno-non-virtual-dtor -Wno-long-long -Wwrite-strings -Wpointer-arith -Woverloaded-virtual -Wno-variadic-macros -Wshadow -pipe -pthread -ftls-model=initial-exec -DKL_USE_ROOT=1 -DG4INTY_USE_XT -DG4VIS_USE_OPENGL -DG4UI_USE_TCSH -DG4VIS_USE_OPENGLX -DG4MULTITHREADED -D__HAS_CURL=1 -Iinclude -Iinclude/RAT -I/home/aw325/Downloads/root/include -I/home/aw325/anaconda2/include .sconf_temp/conftest_1.c
+  |
+scons: Configure: (cached) no
+
+scons: Configure: Checking for C library z... 
+scons: Configure: ".sconf_temp/conftest_2.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_2.c <-
+  |  |
+  |  |
+  |  |#include "zlib.h"
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_2.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_2.o -c -m64 -pthread -rdynamic -Wno-long-long -W -Wall -pedantic -Wno-non-virtual-dtor -Wno-long-long -Wwrite-strings -Wpointer-arith -Woverloaded-virtual -Wno-variadic-macros -Wshadow -pipe -pthread -ftls-model=initial-exec -DKL_USE_ROOT=1 -DG4INTY_USE_XT -DG4VIS_USE_OPENGL -DG4UI_USE_TCSH -DG4VIS_USE_OPENGLX -DG4MULTITHREADED -D__HAS_CURL=1 -Iinclude -Iinclude/RAT -I/home/aw325/Downloads/root/include -I/usr/local/include .sconf_temp/conftest_2.c
+  |
+scons: Configure: ".sconf_temp/conftest_2" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_2 -pthread -pthread .sconf_temp/conftest_2.o -Llib -L/home/aw325/Downloads/root/lib -L/usr/local/lib64 -L/usr/local/lib -lCore -lCint -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lTree -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -lm -ldl -lSpectrum -lFoam -lPyROOT -lMinuit2 -lG4OpenGL -lG4gl2ps -lG4Tree -lG4FR -lG4GMocren -lG4visHepRep -lG4RayTracer -lG4VRML -lG4vis_management -lG4modeling -lG4interfaces -lG4persistency -lG4analysis -lG4error_propagation -lG4readout -lG4physicslists -lG4run -lG4event -lG4tracking -lG4parmodels -lG4processes -lG4digits_hits -lG4track -lG4particles -lG4geometry -lG4materials -lG4graphics_reps -lG4intercoms -lG4global -lG4clhep -lG4expat -lG4zlib -lG4geomUSolids -lcurl -lz
+  |
+scons: Configure: (cached) yes
+
+

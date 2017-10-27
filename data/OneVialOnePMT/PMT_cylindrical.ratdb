@@ -1,0 +1,24 @@
+{
+name: "PMT",
+index: "r7723",
+valid_begin: [0,0],
+valid_end: [0,0],
+
+construction: "cylindrical",
+
+case_material: "teflon_black",
+dynode_material: "stainless_steel",
+glass_material: "glass",
+pmt_vacuum_material: "pmt_vacuum", // dilute air
+photocathode_surface: "photocathode_r7723",
+mirror_surface: "mirror",
+dynode_surface: "stainless_steel",
+
+case_thickness: 0.5, // mm
+glass_thickness: 2, // mm
+
+pmt_radius: 26.0, //mm
+pmt_height: 56.0, //mm half-lenght
+photocathode_radius: 23.0, //mm
+
+}
